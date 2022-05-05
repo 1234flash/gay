@@ -1,3 +1,10 @@
+local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
+local Notify = NotifyLibrary.Notify
+Notify({
+    Title = "this silent aim was made by oxy",
+    Description = "loaded",
+    Duration = 7
+})
 --gay private silent aim V2
 local Aiming = loadstring(game:HttpGet("https://gist.githubusercontent.com/diegxw/d870997929af2a1483180013f688c771/raw/ebd11cce0600c1a140f411f7e1b9e8d4a7320037/module"))()
 Aiming.TeamCheck(false)
